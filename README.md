@@ -1,4 +1,7 @@
 # Potato
+<br>
+<p align="center"><img src="https://github.com/lio2011/Potato/blob/main/app/assets/logoDark.png" height=150px></p>
+<br>
 With the help of our application one can sell/lend useless or unused items or could even buy/borrow things from nearby people. This application will help in connecting people with similar needs and requirements.
 
 
