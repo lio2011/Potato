@@ -181,7 +181,7 @@ export default function BuyingScreen() {
           >
             <Image
               style={styles.button}
-              source={require("../assets/logoDark.png")}
+              source={require("../assets/Reject.png")}
             ></Image>
           </TouchableWithoutFeedback>
           {/* <Image source={require("../assets/logoDark.png")}></Image> */}
@@ -190,7 +190,7 @@ export default function BuyingScreen() {
           >
             <Image
               style={styles.button}
-              source={require("../assets/logoDark.png")}
+              source={require("../assets/Aceept.png")}
             ></Image>
           </TouchableWithoutFeedback>
         </View>
@@ -273,7 +273,9 @@ const styles = StyleSheet.create({
   },
   button: {
     marginHorizontal: 20,
-    height: 60,
-    width: 90,
+    marginTop:70,
+    height: 80,
+    width: 80,
+    resizeMode:"contain"
   },
 });

@@ -91,9 +91,7 @@ export default function AccountScreen({navigation}) {
             ref={scrollView}
             data={selectedFilters}
             horizontal
-            
             showsHorizontalScrollIndicator={false}
-            
             keyExtractor={(item) => item.id.toString()}
             renderItem={({ item }) => (
               <FilterItem
