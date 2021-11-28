@@ -92,7 +92,7 @@ export default function AccountScreen({navigation}) {
             data={selectedFilters}
             horizontal
             
-            // showsHorizontalScrollIndicator={false}
+            showsHorizontalScrollIndicator={false}
             
             keyExtractor={(item) => item.id.toString()}
             renderItem={({ item }) => (
